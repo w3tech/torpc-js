@@ -1,0 +1,16 @@
+# One workspace for the whole repository. Before this there were three different
+# answers to "how do I install this": an npm lockfile in codec/, a pnpm lockfile
+# and a second workspace file in bench/, and nothing at all in
+# packages/torpc-toevm-rules. One repository cannot have three package managers
+# and expect a contributor or a CI job to guess correctly.
+packages:
+  - codec
+  - packages/*
+  - bench
+
+# Carried over verbatim from bench/pnpm-workspace.yaml, which this file replaces.
+# It belongs at the root now: an override only applies from the workspace root, so
+# leaving it in bench/ would silently stop applying the moment bench stopped being
+# its own workspace.
+overrides:
+  ws: ">=8.21.0"

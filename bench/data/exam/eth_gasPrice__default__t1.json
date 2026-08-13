@@ -1,0 +1,14 @@
+{
+  "examId": "eth_gasPrice__default__t1",
+  "method": "eth_gasPrice",
+  "sampleId": "default",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"400175724\"",
+  "questions": [
+    {
+      "qid": "eth_gasPrice__default__q1",
+      "prompt": "What is the value returned by eth_gasPrice as a decimal integer?"
+    }
+  ]
+}

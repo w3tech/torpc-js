@@ -1,0 +1,11 @@
+{
+  "pinnedBlock": "25338339",
+  "txHashes": {
+    "simple_erc20_transfer": "0x91029fedefa450caae3f9a18414130b54ecc780b04b545e8023e7ab913055594",
+    "uniswap_v3_swap": "0x161b156c0fc922c04c01cb07553792813ac493ab1a5352d1e3fe185fb380df38",
+    "nft_mint": "0xf2326796e05a7fc41c61eda281732dd530f7c71d649f7a692ab33441cc1fdce7",
+    "failed_tx": "0xe09e7e869fd759f29d966daf0a9c5bfc14f9a6704caf5705aa8d5a8de94f69ee",
+    "contract_deployment": "0x562f28dac946dbc8842989db7cea74da6d779dfa08de8ce31ec620be7af3f5a2"
+  },
+  "blockHash": "0x2a6fa1f20e88229492c6c75ce18989c531c039454222993e3b2f5893765ee577"
+}

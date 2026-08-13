@@ -1,0 +1,23 @@
+{
+  "method": "eth_blockNumber",
+  "sampleId": "default",
+  "description": "eth_blockNumber scalar",
+  "params": [],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:45.168Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x182a26e\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"25338478\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"25338478\""
+    }
+  }
+}

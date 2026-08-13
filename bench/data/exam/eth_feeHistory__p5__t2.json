@@ -1,0 +1,18 @@
+{
+  "examId": "eth_feeHistory__p5__t2",
+  "method": "eth_feeHistory",
+  "sampleId": "p5",
+  "tier": 2,
+  "primer": "TORPC tier-2. Numbers are ALREADY DECIMAL (NOT hex); events/functions are DECODED with named args (e.g. {event:\"Transfer\", args:{from,to,value}}); field names are compacted.",
+  "payload": "{\"base_fee_per_blob_gas\":[\"25208621\",\"25303055\",\"25974079\",\"26267082\",\"26863040\",\"27575435\"],\"base_fee_per_gas\":[\"471367339\",\"426649800\",\"436851268\",\"449303158\",\"434767195\",\"430658278\"],\"blob_gas_used_ratio\":[0.047619047619047616,0.3333333333333333,0.14285714285714285,0.2857142857142857,0.3333333333333333],\"gas_used_ratio\":[0.12052916666666667,0.59564255,0.614014922705853,0.37059103539481697,0.46219661666666667],\"oldest_block\":\"25338335\",\"reward\":[[\"10000001\",\"480325108\",\"1000000000\"],[\"91854272\",\"1000000000\",\"2000000000\"],[\"1000000\",\"79000000\",\"1000000000\"],[\"59765072\",\"200605408\",\"1127346642\"],[\"11000000\",\"54574608\",\"825494351\"]]}",
+  "questions": [
+    {
+      "qid": "eth_feeHistory__p5__q1",
+      "prompt": "How many baseFeePerGas entries are in this fee history?"
+    },
+    {
+      "qid": "eth_feeHistory__p5__q2",
+      "prompt": "What is the oldest block number in this fee history, as a decimal integer?"
+    }
+  ]
+}

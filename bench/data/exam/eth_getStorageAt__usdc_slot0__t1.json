@@ -1,0 +1,14 @@
+{
+  "examId": "eth_getStorageAt__usdc_slot0__t1",
+  "method": "eth_getStorageAt",
+  "sampleId": "usdc_slot0",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"0x000000000000000000000000fcb19e6a322b27c06842a71e8c725399f049ae3a\"",
+  "questions": [
+    {
+      "qid": "eth_getStorageAt__usdc_slot0__q1",
+      "prompt": "What is the value returned by eth_getStorageAt as a decimal integer?"
+    }
+  ]
+}

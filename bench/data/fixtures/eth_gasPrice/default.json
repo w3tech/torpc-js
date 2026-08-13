@@ -1,0 +1,23 @@
+{
+  "method": "eth_gasPrice",
+  "sampleId": "default",
+  "description": "eth_gasPrice scalar",
+  "params": [],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:45.753Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x17da326c\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"400175724\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"400175724\""
+    }
+  }
+}

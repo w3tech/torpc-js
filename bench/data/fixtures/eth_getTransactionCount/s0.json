@@ -1,0 +1,26 @@
+{
+  "method": "eth_getTransactionCount",
+  "sampleId": "s0",
+  "description": "nonce of 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+  "params": [
+    "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+    "0x182a1e3"
+  ],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:52.334Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x1708\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"5896\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"5896\""
+    }
+  }
+}

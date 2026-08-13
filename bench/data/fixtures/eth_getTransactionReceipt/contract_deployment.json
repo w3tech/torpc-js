@@ -1,0 +1,25 @@
+{
+  "method": "eth_getTransactionReceipt",
+  "sampleId": "contract_deployment",
+  "description": "receipt (contract_deployment)",
+  "params": [
+    "0x562f28dac946dbc8842989db7cea74da6d779dfa08de8ce31ec620be7af3f5a2"
+  ],
+  "coverage": "full_t2",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:32:25.322Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "{\"blockHash\":\"0x0e446ad6785d02c8e66edfaab8b113bd3f1fc5c0897db48f30a6d2c423ac6489\",\"blockNumber\":\"0x182a1d8\",\"contractAddress\":\"0xc5da831b5f152d6740e6a454fb936dde61e3426a\",\"cumulativeGasUsed\":\"0x2c0a1f6\",\"effectiveGasPrice\":\"0x19960336\",\"from\":\"0x51c97c1278362e7978c6ed5981c679de533d7048\",\"gasUsed\":\"0x20cb00\",\"logs\":[],\"logsBloom\":\"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"status\":\"0x1\",\"to\":null,\"transactionHash\":\"0x562f28dac946dbc8842989db7cea74da6d779dfa08de8ce31ec620be7af3f5a2\",\"transactionIndex\":\"0x18a\",\"type\":\"0x2\"}"
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "{\"block\":\"25338328\",\"block_hash\":\"0x0e446ad6785d02c8e66edfaab8b113bd3f1fc5c0897db48f30a6d2c423ac6489\",\"contractAddress\":\"0xc5Da831B5F152D6740e6A454fB936DdE61E3426a\",\"from\":\"0x51C97c1278362e7978c6Ed5981C679de533D7048\",\"gas_price\":\"429261622\",\"gas_used\":\"2149120\",\"logs\":[],\"status\":\"success\",\"to\":null,\"tx\":\"0x562f28dac946dbc8842989db7cea74da6d779dfa08de8ce31ec620be7af3f5a2\",\"tx_index\":\"394\"}"
+    },
+    "2": {
+      "tokenTier": "2",
+      "resultBody": "{\"block\":\"25338328\",\"block_hash\":\"0x0e446ad6785d02c8e66edfaab8b113bd3f1fc5c0897db48f30a6d2c423ac6489\",\"contractAddress\":\"0xc5Da831B5F152D6740e6A454fB936DdE61E3426a\",\"from\":\"0x51C97c1278362e7978c6Ed5981C679de533D7048\",\"gas_price\":\"429261622\",\"gas_used\":\"2149120\",\"logs\":[],\"status\":\"success\",\"to\":null,\"tx\":\"0x562f28dac946dbc8842989db7cea74da6d779dfa08de8ce31ec620be7af3f5a2\",\"tx_index\":\"394\"}"
+    }
+  }
+}

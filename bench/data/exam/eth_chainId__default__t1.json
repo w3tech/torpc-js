@@ -1,0 +1,14 @@
+{
+  "examId": "eth_chainId__default__t1",
+  "method": "eth_chainId",
+  "sampleId": "default",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"1\"",
+  "questions": [
+    {
+      "qid": "eth_chainId__default__q1",
+      "prompt": "What is the value returned by eth_chainId as a decimal integer?"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "method": "eth_estimateGas",
+  "sampleId": "transfer",
+  "description": "estimate gas of a 1-wei value transfer",
+  "params": [
+    {
+      "from": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "to": "0xC02aaa39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "value": "0x1"
+    }
+  ],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:54.306Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x6d49\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"27977\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"27977\""
+    }
+  }
+}

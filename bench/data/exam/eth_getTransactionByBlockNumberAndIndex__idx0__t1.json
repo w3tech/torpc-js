@@ -1,0 +1,26 @@
+{
+  "examId": "eth_getTransactionByBlockNumberAndIndex__idx0__t1",
+  "method": "eth_getTransactionByBlockNumberAndIndex",
+  "sampleId": "idx0",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "{\"block\":\"25338339\",\"block_hash\":\"0x2a6fa1f20e88229492c6c75ce18989c531c039454222993e3b2f5893765ee577\",\"block_timestamp\":\"1781712215\",\"from\":\"0xc917c3fa468f2c4B9c84C72caA46420eb9825249\",\"gas_limit\":\"100000\",\"gas_price\":\"434767195\",\"input\":\"0x1828e0e7000000000000000000000000c917c3fa468f2c4b9c84c72caa46420eb9825249000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000410dc0e47d513225ba770a68dc55daaecf11bb7671e46b36e0e2197495cc675d0872ac368685bf6a1ca25e37712c78155780a358ff98136462b073862c93f9c8441c00000000000000000000000000000000000000000000000000000000000000\",\"max_fee_per_gas\":\"919704738\",\"max_priority_fee_per_gas\":\"0\",\"nonce\":\"52698\",\"to\":\"0x0000000aa232009084Bd71A5797d089AA4Edfad4\",\"tx\":\"0x2ea5a5b249edda49f3068d24ebdca9a27ee9c5b815b4b90a598498e20c20ba9c\",\"tx_index\":\"0\",\"value\":\"0\"}",
+  "questions": [
+    {
+      "qid": "eth_getTransactionByBlockNumberAndIndex__idx0__q1",
+      "prompt": "What is the sender (from) address of this transaction?"
+    },
+    {
+      "qid": "eth_getTransactionByBlockNumberAndIndex__idx0__q2",
+      "prompt": "What is the recipient (to) address of this transaction?"
+    },
+    {
+      "qid": "eth_getTransactionByBlockNumberAndIndex__idx0__q3",
+      "prompt": "What is the nonce of this transaction, as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionByBlockNumberAndIndex__idx0__q4",
+      "prompt": "What is the value of this transaction, in wei as a decimal integer?"
+    }
+  ]
+}

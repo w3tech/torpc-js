@@ -1,0 +1,14 @@
+{
+  "examId": "eth_chainId__default__t0",
+  "method": "eth_chainId",
+  "sampleId": "default",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "\"0x1\"",
+  "questions": [
+    {
+      "qid": "eth_chainId__default__q1",
+      "prompt": "What is the value returned by eth_chainId as a decimal integer?"
+    }
+  ]
+}

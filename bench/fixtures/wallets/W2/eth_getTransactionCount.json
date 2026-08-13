@@ -1,0 +1,8 @@
+{
+  "fixtureId": "W2",
+  "method": "eth_getTransactionCount",
+  "capturedAt": "2026-05-14T13:17:48.923Z",
+  "pinnedBlock": "21540854",
+  "result": "0xad0c50",
+  "source": "eth_jsonrpc"
+}

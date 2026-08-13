@@ -1,0 +1,14 @@
+{
+  "examId": "eth_getBalance__s1__t1",
+  "method": "eth_getBalance",
+  "sampleId": "s1",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"0\"",
+  "questions": [
+    {
+      "qid": "eth_getBalance__s1__q1",
+      "prompt": "What is the value returned by eth_getBalance as a decimal integer?"
+    }
+  ]
+}

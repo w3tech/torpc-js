@@ -1,0 +1,26 @@
+{
+  "examId": "eth_getTransactionByHash__failed_tx__t2",
+  "method": "eth_getTransactionByHash",
+  "sampleId": "failed_tx",
+  "tier": 2,
+  "primer": "TORPC tier-2. Numbers are ALREADY DECIMAL (NOT hex); events/functions are DECODED with named args (e.g. {event:\"Transfer\", args:{from,to,value}}); field names are compacted.",
+  "payload": "{\"args\":{\"\":[[{\"itemIndex\":\"0\",\"orderIndex\":\"0\"},{\"itemIndex\":\"0\",\"orderIndex\":\"1\"},{\"itemIndex\":\"0\",\"orderIndex\":\"2\"}],[{\"itemIndex\":\"1\",\"orderIndex\":\"0\"},{\"itemIndex\":\"1\",\"orderIndex\":\"1\"},{\"itemIndex\":\"1\",\"orderIndex\":\"2\"},{\"itemIndex\":\"1\",\"orderIndex\":\"3\"},{\"itemIndex\":\"1\",\"orderIndex\":\"4\"},{\"itemIndex\":\"1\",\"orderIndex\":\"5\"},{\"itemIndex\":\"1\",\"orderIndex\":\"6\"},{\"itemIndex\":\"1\",\"orderIndex\":\"7\"},{\"itemIndex\":\"1\",\"orderIndex\":\"8\"},{\"itemIndex\":\"1\",\"orderIndex\":\"9\"},{\"itemIndex\":\"1\",\"orderIndex\":\"10\"},{\"itemIndex\":\"1\",\"orderIndex\":\"11\"},{\"itemIndex\":\"1\",\"orderIndex\":\"12\"}],[{\"itemIndex\":\"0\",\"orderIndex\":\"3\"},{\"itemIndex\":\"0\",\"orderIndex\":\"4\"},{\"itemIndex\":\"0\",\"orderIndex\":\"5\"}],[{\"itemIndex\":\"0\",\"orderIndex\":\"6\"}],[{\"itemIndex\":\"0\",\"orderIndex\":\"7\"}],[{\"itemIndex\":\"0\",\"orderIndex\":\"8\"},{\"itemIndex\":\"0\",\"orderIndex\":\"9\"}],[{\"itemIndex\":\"0\",\"orderIndex\":\"10\"},{\"itemIndex\":\"0\",\"orderIndex\":\"11\"},{\"itemIndex\":\"0\",\"orderIndex\":\"12\"}]],\"fulfillerConduitKey\":\"0x0000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000\",\"maximumFulfilled\":\"4\",\"recipient\":\"0xC679b15079045362D0DaDD3222e7dCa770c58A3a\"},\"block\":\"25338338\",\"block_hash\":\"0x977f5579ccabe275854182ce18eb7a5dbbda61022ed1a788c4a73d91e7fe4192\",\"block_timestamp\":\"1781712203\",\"from\":\"0xC679b15079045362D0DaDD3222e7dCa770c58A3a\",\"function\":\"fulfillAvailableAdvancedOrders\",\"gas_limit\":\"595876\",\"gas_price\":\"1332212938\",\"max_fee_per_gas\":\"1332212938\",\"max_priority_fee_per_gas\":\"1332212938\",\"nonce\":\"878\",\"to\":\"0x0000000000000068F116a894984e2DB1123eB395\",\"tx\":\"0xe09e7e869fd759f29d966daf0a9c5bfc14f9a6704caf5705aa8d5a8de94f69ee\",\"tx_index\":\"12\",\"value\":\"85200000000000000\"}",
+  "questions": [
+    {
+      "qid": "eth_getTransactionByHash__failed_tx__q1",
+      "prompt": "What is the sender (from) address of this transaction?"
+    },
+    {
+      "qid": "eth_getTransactionByHash__failed_tx__q2",
+      "prompt": "What is the recipient (to) address of this transaction?"
+    },
+    {
+      "qid": "eth_getTransactionByHash__failed_tx__q3",
+      "prompt": "What is the nonce of this transaction, as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionByHash__failed_tx__q4",
+      "prompt": "What is the value of this transaction, in wei as a decimal integer?"
+    }
+  ]
+}

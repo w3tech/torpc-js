@@ -1,0 +1,23 @@
+{
+  "method": "eth_maxPriorityFeePerGas",
+  "sampleId": "default",
+  "description": "eth_maxPriorityFeePerGas scalar",
+  "params": [],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:46.344Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0xf4240\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"1000000\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"1000000\""
+    }
+  }
+}

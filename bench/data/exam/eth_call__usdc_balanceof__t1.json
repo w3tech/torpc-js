@@ -1,0 +1,14 @@
+{
+  "examId": "eth_call__usdc_balanceof__t1",
+  "method": "eth_call",
+  "sampleId": "usdc_balanceof",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"0x0000000000000000000000000000000000000000000000000000000001dc7d01\"",
+  "questions": [
+    {
+      "qid": "eth_call__usdc_balanceof__q1",
+      "prompt": "Decode the returned value as a single uint256 and give it as a decimal integer."
+    }
+  ]
+}

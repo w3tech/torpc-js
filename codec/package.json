@@ -1,0 +1,32 @@
+{
+  "name": "@torpc/decoder",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Reference bidirectional mapper between standard EVM JSON-RPC responses and the TORPC compact form. Structural only — no ABI, no decoding.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.6.0"
+  },
+  "keywords": [
+    "torpc",
+    "ethereum",
+    "json-rpc",
+    "evm",
+    "compact"
+  ],
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,18 @@
+{
+  "examId": "eth_feeHistory__p5__t0",
+  "method": "eth_feeHistory",
+  "sampleId": "p5",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "{\"baseFeePerGas\":[\"0x1c187eab\",\"0x196e28c8\",\"0x1a09d244\",\"0x1ac7d276\",\"0x19ea055b\",\"0x19ab52e6\"],\"gasUsedRatio\":[0.12052916666666667,0.59564255,0.614014922705853,0.37059103539481697,0.46219661666666667],\"baseFeePerBlobGas\":[\"0x180a72d\",\"0x182180f\",\"0x18c553f\",\"0x190cdca\",\"0x199e5c0\",\"0x1a4c48b\"],\"blobGasUsedRatio\":[0.047619047619047616,0.3333333333333333,0.14285714285714285,0.2857142857142857,0.3333333333333333],\"oldestBlock\":\"0x182a1df\",\"reward\":[[\"0x989681\",\"0x1ca12df4\",\"0x3b9aca00\"],[\"0x57995c0\",\"0x3b9aca00\",\"0x77359400\"],[\"0xf4240\",\"0x4b571c0\",\"0x3b9aca00\"],[\"0x38ff150\",\"0xbf4fee0\",\"0x4331f1d2\"],[\"0xa7d8c0\",\"0x340be10\",\"0x31340b4f\"]]}",
+  "questions": [
+    {
+      "qid": "eth_feeHistory__p5__q1",
+      "prompt": "How many baseFeePerGas entries are in this fee history?"
+    },
+    {
+      "qid": "eth_feeHistory__p5__q2",
+      "prompt": "What is the oldest block number in this fee history, as a decimal integer?"
+    }
+  ]
+}

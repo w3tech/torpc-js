@@ -1,0 +1,14 @@
+{
+  "examId": "eth_getTransactionCount__s0__t0",
+  "method": "eth_getTransactionCount",
+  "sampleId": "s0",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "\"0x1708\"",
+  "questions": [
+    {
+      "qid": "eth_getTransactionCount__s0__q1",
+      "prompt": "What is the value returned by eth_getTransactionCount as a decimal integer?"
+    }
+  ]
+}

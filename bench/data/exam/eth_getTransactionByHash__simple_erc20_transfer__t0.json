@@ -1,0 +1,38 @@
+{
+  "examId": "eth_getTransactionByHash__simple_erc20_transfer__t0",
+  "method": "eth_getTransactionByHash",
+  "sampleId": "simple_erc20_transfer",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "{\"type\":\"0x2\",\"chainId\":\"0x1\",\"nonce\":\"0x7ac\",\"gas\":\"0xf4240\",\"maxFeePerGas\":\"0x165a0bc00\",\"maxPriorityFeePerGas\":\"0xb2d05e00\",\"to\":\"0x163f8c2467924be0ae7b5347228cabf260318753\",\"value\":\"0x0\",\"accessList\":[],\"input\":\"0xa9059cbb0000000000000000000000007cb4777e8d78132077d63bd49f192ed4ced04c17000000000000000000000000000000000000000000000478a8b422e887070000\",\"r\":\"0xc9ce8815c684d9f0c4f5343c2c18e543346f5abc51632ffc07f4d8734b9c3f5\",\"s\":\"0x5bc99111607d78e0bc31e62f0c594f9135e07ca5d9bef66eaed98d942e5f932b\",\"yParity\":\"0x0\",\"v\":\"0x0\",\"hash\":\"0x91029fedefa450caae3f9a18414130b54ecc780b04b545e8023e7ab913055594\",\"blockHash\":\"0x2a6fa1f20e88229492c6c75ce18989c531c039454222993e3b2f5893765ee577\",\"blockNumber\":\"0x182a1e3\",\"transactionIndex\":\"0x7\",\"from\":\"0xd30da95d2c8142e3781f39aca189208e5e35da5e\",\"gasPrice\":\"0xccba635b\",\"blockTimestamp\":\"0x6a32c557\"}",
+  "questions": [
+    {
+      "qid": "eth_getTransactionByHash__simple_erc20_transfer__q1",
+      "prompt": "What is the sender (from) address of this transaction?"
+    },
+    {
+      "qid": "eth_getTransactionByHash__simple_erc20_transfer__q2",
+      "prompt": "What is the recipient (to) address of this transaction?"
+    },
+    {
+      "qid": "eth_getTransactionByHash__simple_erc20_transfer__q3",
+      "prompt": "What is the nonce of this transaction, as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionByHash__simple_erc20_transfer__q4",
+      "prompt": "What is the value of this transaction, in wei as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionByHash__simple_erc20_transfer__q5",
+      "prompt": "What ERC-20 function does this transaction call? (function name)"
+    },
+    {
+      "qid": "eth_getTransactionByHash__simple_erc20_transfer__q6",
+      "prompt": "In this ERC-20 transfer call, what recipient address is encoded in the calldata?"
+    },
+    {
+      "qid": "eth_getTransactionByHash__simple_erc20_transfer__q7",
+      "prompt": "In this ERC-20 transfer call, what is the amount as a decimal integer (decoded from calldata)?"
+    }
+  ]
+}

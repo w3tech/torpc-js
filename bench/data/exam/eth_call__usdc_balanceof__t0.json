@@ -1,0 +1,14 @@
+{
+  "examId": "eth_call__usdc_balanceof__t0",
+  "method": "eth_call",
+  "sampleId": "usdc_balanceof",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "\"0x0000000000000000000000000000000000000000000000000000000001dc7d01\"",
+  "questions": [
+    {
+      "qid": "eth_call__usdc_balanceof__q1",
+      "prompt": "Decode the returned value as a single uint256 and give it as a decimal integer."
+    }
+  ]
+}

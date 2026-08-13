@@ -1,0 +1,27 @@
+{
+  "method": "eth_getStorageAt",
+  "sampleId": "usdc_slot0",
+  "description": "USDC storage slot 0",
+  "params": [
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "0x0",
+    "0x182a1e3"
+  ],
+  "coverage": "unsupported",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:32:25.811Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x000000000000000000000000fcb19e6a322b27c06842a71e8c725399f049ae3a\""
+    },
+    "1": {
+      "tokenTier": "0",
+      "resultBody": "\"0x000000000000000000000000fcb19e6a322b27c06842a71e8c725399f049ae3a\""
+    },
+    "2": {
+      "tokenTier": "0",
+      "resultBody": "\"0x000000000000000000000000fcb19e6a322b27c06842a71e8c725399f049ae3a\""
+    }
+  }
+}

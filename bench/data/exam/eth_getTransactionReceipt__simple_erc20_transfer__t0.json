@@ -1,0 +1,34 @@
+{
+  "examId": "eth_getTransactionReceipt__simple_erc20_transfer__t0",
+  "method": "eth_getTransactionReceipt",
+  "sampleId": "simple_erc20_transfer",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "{\"blockHash\":\"0x2a6fa1f20e88229492c6c75ce18989c531c039454222993e3b2f5893765ee577\",\"blockNumber\":\"0x182a1e3\",\"contractAddress\":null,\"cumulativeGasUsed\":\"0x217511\",\"effectiveGasPrice\":\"0xccba635b\",\"from\":\"0xd30da95d2c8142e3781f39aca189208e5e35da5e\",\"gasUsed\":\"0x86db\",\"logs\":[{\"address\":\"0x163f8c2467924be0ae7b5347228cabf260318753\",\"topics\":[\"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\",\"0x000000000000000000000000d30da95d2c8142e3781f39aca189208e5e35da5e\",\"0x0000000000000000000000007cb4777e8d78132077d63bd49f192ed4ced04c17\"],\"data\":\"0x000000000000000000000000000000000000000000000478a8b422e887070000\",\"blockNumber\":\"0x182a1e3\",\"transactionHash\":\"0x91029fedefa450caae3f9a18414130b54ecc780b04b545e8023e7ab913055594\",\"transactionIndex\":\"0x7\",\"blockHash\":\"0x2a6fa1f20e88229492c6c75ce18989c531c039454222993e3b2f5893765ee577\",\"blockTimestamp\":\"0x6a32c557\",\"logIndex\":\"0x4a\",\"removed\":false}],\"logsBloom\":\"0x00000000000000000000000000000000000000000000000000000000000000000800000000000080000000000000200000000000000000800000000000000000000000000000000000000008000000000000000000000000000000000000000001000000000000000000000000000000000000000000020000000010000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000082000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000\",\"status\":\"0x1\",\"to\":\"0x163f8c2467924be0ae7b5347228cabf260318753\",\"transactionHash\":\"0x91029fedefa450caae3f9a18414130b54ecc780b04b545e8023e7ab913055594\",\"transactionIndex\":\"0x7\",\"type\":\"0x2\"}",
+  "questions": [
+    {
+      "qid": "eth_getTransactionReceipt__simple_erc20_transfer__q1",
+      "prompt": "Did this transaction succeed? Answer yes or no."
+    },
+    {
+      "qid": "eth_getTransactionReceipt__simple_erc20_transfer__q2",
+      "prompt": "How many event logs did this transaction emit?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__simple_erc20_transfer__q3",
+      "prompt": "What is the gas used by this transaction, as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__simple_erc20_transfer__q4",
+      "prompt": "How many ERC-20 Transfer events did this transaction emit?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__simple_erc20_transfer__q5",
+      "prompt": "In the first ERC-20 Transfer event log, what is the recipient (to) address?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__simple_erc20_transfer__q6",
+      "prompt": "In the first ERC-20 Transfer event log, what is the transferred amount as a decimal integer?"
+    }
+  ]
+}

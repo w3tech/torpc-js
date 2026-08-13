@@ -1,0 +1,8 @@
+{
+  "eth_getTransactionReceipt__simple_erc20_transfer__q1": "yes",
+  "eth_getTransactionReceipt__simple_erc20_transfer__q2": "1",
+  "eth_getTransactionReceipt__simple_erc20_transfer__q3": "34523",
+  "eth_getTransactionReceipt__simple_erc20_transfer__q4": "1",
+  "eth_getTransactionReceipt__simple_erc20_transfer__q5": "0x7cb4777e8d78132077d63bd49f192ed4ced04c17",
+  "eth_getTransactionReceipt__simple_erc20_transfer__q6": "21114741985693127458816"
+}

@@ -1,0 +1,23 @@
+{
+  "method": "eth_chainId",
+  "sampleId": "default",
+  "description": "eth_chainId scalar",
+  "params": [],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:45.316Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x1\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"1\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"1\""
+    }
+  }
+}

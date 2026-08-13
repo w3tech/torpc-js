@@ -1,0 +1,14 @@
+{
+  "examId": "eth_estimateGas__transfer__t0",
+  "method": "eth_estimateGas",
+  "sampleId": "transfer",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "\"0x6d49\"",
+  "questions": [
+    {
+      "qid": "eth_estimateGas__transfer__q1",
+      "prompt": "What is the value returned by eth_estimateGas as a decimal integer?"
+    }
+  ]
+}

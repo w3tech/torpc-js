@@ -1,0 +1,26 @@
+{
+  "examId": "eth_getTransactionReceipt__failed_tx__t0",
+  "method": "eth_getTransactionReceipt",
+  "sampleId": "failed_tx",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "{\"blockHash\":\"0x977f5579ccabe275854182ce18eb7a5dbbda61022ed1a788c4a73d91e7fe4192\",\"blockNumber\":\"0x182a1e2\",\"contractAddress\":null,\"cumulativeGasUsed\":\"0x3efafc\",\"effectiveGasPrice\":\"0x4f67f4ca\",\"from\":\"0xc679b15079045362d0dadd3222e7dca770c58a3a\",\"gasUsed\":\"0x9152c\",\"logs\":[],\"logsBloom\":\"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"status\":\"0x0\",\"to\":\"0x0000000000000068f116a894984e2db1123eb395\",\"transactionHash\":\"0xe09e7e869fd759f29d966daf0a9c5bfc14f9a6704caf5705aa8d5a8de94f69ee\",\"transactionIndex\":\"0xc\",\"type\":\"0x2\"}",
+  "questions": [
+    {
+      "qid": "eth_getTransactionReceipt__failed_tx__q1",
+      "prompt": "Did this transaction succeed? Answer yes or no."
+    },
+    {
+      "qid": "eth_getTransactionReceipt__failed_tx__q2",
+      "prompt": "How many event logs did this transaction emit?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__failed_tx__q3",
+      "prompt": "What is the gas used by this transaction, as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__failed_tx__q4",
+      "prompt": "How many ERC-20 Transfer events did this transaction emit?"
+    }
+  ]
+}

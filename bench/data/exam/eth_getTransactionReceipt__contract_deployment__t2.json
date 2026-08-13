@@ -1,0 +1,26 @@
+{
+  "examId": "eth_getTransactionReceipt__contract_deployment__t2",
+  "method": "eth_getTransactionReceipt",
+  "sampleId": "contract_deployment",
+  "tier": 2,
+  "primer": "TORPC tier-2. Numbers are ALREADY DECIMAL (NOT hex); events/functions are DECODED with named args (e.g. {event:\"Transfer\", args:{from,to,value}}); field names are compacted.",
+  "payload": "{\"block\":\"25338328\",\"block_hash\":\"0x0e446ad6785d02c8e66edfaab8b113bd3f1fc5c0897db48f30a6d2c423ac6489\",\"contractAddress\":\"0xc5Da831B5F152D6740e6A454fB936DdE61E3426a\",\"from\":\"0x51C97c1278362e7978c6Ed5981C679de533D7048\",\"gas_price\":\"429261622\",\"gas_used\":\"2149120\",\"logs\":[],\"status\":\"success\",\"to\":null,\"tx\":\"0x562f28dac946dbc8842989db7cea74da6d779dfa08de8ce31ec620be7af3f5a2\",\"tx_index\":\"394\"}",
+  "questions": [
+    {
+      "qid": "eth_getTransactionReceipt__contract_deployment__q1",
+      "prompt": "Did this transaction succeed? Answer yes or no."
+    },
+    {
+      "qid": "eth_getTransactionReceipt__contract_deployment__q2",
+      "prompt": "How many event logs did this transaction emit?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__contract_deployment__q3",
+      "prompt": "What is the gas used by this transaction, as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__contract_deployment__q4",
+      "prompt": "How many ERC-20 Transfer events did this transaction emit?"
+    }
+  ]
+}

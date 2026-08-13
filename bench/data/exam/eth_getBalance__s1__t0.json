@@ -1,0 +1,14 @@
+{
+  "examId": "eth_getBalance__s1__t0",
+  "method": "eth_getBalance",
+  "sampleId": "s1",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "\"0x0\"",
+  "questions": [
+    {
+      "qid": "eth_getBalance__s1__q1",
+      "prompt": "What is the value returned by eth_getBalance as a decimal integer?"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "method": "eth_call",
+  "sampleId": "usdc_balanceof",
+  "description": "USDC.balanceOf(vitalik)",
+  "params": [
+    {
+      "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "data": "0x70a08231000000000000000000000000d8da6bf26964af9d7eed9e03e53415d37aa96045"
+    },
+    "0x182a1e3"
+  ],
+  "coverage": "unsupported",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:32:25.491Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x0000000000000000000000000000000000000000000000000000000001dc7d01\""
+    },
+    "1": {
+      "tokenTier": "0",
+      "resultBody": "\"0x0000000000000000000000000000000000000000000000000000000001dc7d01\""
+    },
+    "2": {
+      "tokenTier": "0",
+      "resultBody": "\"0x0000000000000000000000000000000000000000000000000000000001dc7d01\""
+    }
+  }
+}

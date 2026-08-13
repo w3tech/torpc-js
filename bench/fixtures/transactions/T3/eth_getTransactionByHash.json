@@ -1,0 +1,30 @@
+{
+  "fixtureId": "T3",
+  "method": "eth_getTransactionByHash",
+  "capturedAt": "2026-05-14T13:18:06.175Z",
+  "pinnedBlock": "21540854",
+  "result": {
+    "blockHash": "0xb0026e9f9c5a7a679b97bbc9bf2c7808b588d0cae7754b0b5c81b435bb978c16",
+    "blockNumber": "0x148aff6",
+    "blockTimestamp": "0x677745d7",
+    "from": "0xb8dfc637f13a27d980d5b1317c9bb7755acb3e6a",
+    "gas": "0x430ce",
+    "gasPrice": "0x1ccdef8da",
+    "maxFeePerGas": "0x2391d636f",
+    "maxPriorityFeePerGas": "0x3b9aca00",
+    "hash": "0x9e42446c2c443b5b099d953cdbb55d3efbe630787a9476f47a18249aee4cbb16",
+    "input": "0x9bb243860000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000413a1b654f96e1b268c0e80cc8521d2848cf1c9921ec13807e6accaee9fcb37cf81c5a05a19a67218e71586c8bb5608bef8c24ad2c7156a7a97fd562ee1a76eb101b00000000000000000000000000000000000000000000000000000000000000",
+    "nonce": "0x19",
+    "to": "0xb08fbe0e46c284c002d7718b992c7022aa1f061e",
+    "transactionIndex": "0x5c",
+    "value": "0x0",
+    "type": "0x2",
+    "accessList": [],
+    "chainId": "0x1",
+    "v": "0x0",
+    "r": "0x444c40a2ce0a9599a819e48ff889c7e4cc46486010c7b6668d3a778b6fe05894",
+    "s": "0x502c35f74d3016d7c0837e2a0ecb8544bed34dacbbb6030ac85a5f8497f5d095",
+    "yParity": "0x0"
+  },
+  "source": "eth_jsonrpc"
+}

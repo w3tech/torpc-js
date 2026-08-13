@@ -1,0 +1,8 @@
+{
+  "eth_getTransactionReceipt__nft_mint__q1": "yes",
+  "eth_getTransactionReceipt__nft_mint__q2": "44",
+  "eth_getTransactionReceipt__nft_mint__q3": "1131009",
+  "eth_getTransactionReceipt__nft_mint__q4": "24",
+  "eth_getTransactionReceipt__nft_mint__q5": "0xd4f480965d2347d421f1bec7f545682e5ec2151d",
+  "eth_getTransactionReceipt__nft_mint__q6": "8100000000"
+}

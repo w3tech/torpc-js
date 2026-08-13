@@ -1,0 +1,14 @@
+{
+  "examId": "eth_getTransactionCount__s0__t1",
+  "method": "eth_getTransactionCount",
+  "sampleId": "s0",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"5896\"",
+  "questions": [
+    {
+      "qid": "eth_getTransactionCount__s0__q1",
+      "prompt": "What is the value returned by eth_getTransactionCount as a decimal integer?"
+    }
+  ]
+}

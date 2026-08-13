@@ -1,0 +1,14 @@
+{
+  "examId": "eth_getBlockTransactionCountByHash__default__t1",
+  "method": "eth_getBlockTransactionCountByHash",
+  "sampleId": "default",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"244\"",
+  "questions": [
+    {
+      "qid": "eth_getBlockTransactionCountByHash__default__q1",
+      "prompt": "What is the value returned by eth_getBlockTransactionCountByHash as a decimal integer?"
+    }
+  ]
+}

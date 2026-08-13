@@ -1,0 +1,682 @@
+{
+  "fixtureId": "W5",
+  "method": "ankr_getNFTsByOwner",
+  "capturedAt": "2026-05-14T13:17:56.400Z",
+  "pinnedBlock": "21540854",
+  "result": {
+    "nextPageToken": "eyJldGgiOnsidG9rZW4iOiIweDc5ZDczODg0ZmVhNGFiMDMzNDU5YmE5OTI5YWFhODNmYTljMzk2MmYwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDE5Iiwib2Zmc2V0IjowLCJuZXh0VG9rZW4iOiIiLCJuZXh0VG9rZW5JbmRleCI6MH0sInR5cGUiOnsidG9rZW4iOiJcdTAwMDIiLCJvZmZzZXQiOjAsIm5leHRUb2tlbiI6IiIsIm5leHRUb2tlbkluZGV4IjowfX0=",
+    "owner": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "assets": [
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "592",
+        "tokenUrl": "https://gateway.pinata.cloud/ipfs/QmNSQiVyfjfTmZBrsDYTHCdRrzA4AvAoVQE7Cq2soXKnFq/592.json",
+        "imageUrl": "",
+        "collectionName": "Hippynoids",
+        "symbol": "Hippy",
+        "contractType": "ERC721",
+        "contractAddress": "0x151719ae9AaeB0AC0Da9650968980475d4Df2817"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1089",
+        "tokenUrl": "https://gateway.pinata.cloud/ipfs/QmNSQiVyfjfTmZBrsDYTHCdRrzA4AvAoVQE7Cq2soXKnFq/1089.json",
+        "imageUrl": "",
+        "collectionName": "Hippynoids",
+        "symbol": "Hippy",
+        "contractType": "ERC721",
+        "contractAddress": "0x151719ae9AaeB0AC0Da9650968980475d4Df2817"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "3086",
+        "tokenUrl": "https://gateway.pinata.cloud/ipfs/QmNSQiVyfjfTmZBrsDYTHCdRrzA4AvAoVQE7Cq2soXKnFq/3086.json",
+        "imageUrl": "",
+        "collectionName": "Hippynoids",
+        "symbol": "Hippy",
+        "contractType": "ERC721",
+        "contractAddress": "0x151719ae9AaeB0AC0Da9650968980475d4Df2817"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "3087",
+        "tokenUrl": "https://gateway.pinata.cloud/ipfs/QmNSQiVyfjfTmZBrsDYTHCdRrzA4AvAoVQE7Cq2soXKnFq/3087.json",
+        "imageUrl": "",
+        "collectionName": "Hippynoids",
+        "symbol": "Hippy",
+        "contractType": "ERC721",
+        "contractAddress": "0x151719ae9AaeB0AC0Da9650968980475d4Df2817"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "4153",
+        "tokenUrl": "https://gateway.pinata.cloud/ipfs/QmNSQiVyfjfTmZBrsDYTHCdRrzA4AvAoVQE7Cq2soXKnFq/4153.json",
+        "imageUrl": "",
+        "collectionName": "Hippynoids",
+        "symbol": "Hippy",
+        "contractType": "ERC721",
+        "contractAddress": "0x151719ae9AaeB0AC0Da9650968980475d4Df2817"
+      },
+      {
+        "blockchain": "eth",
+        "name": "O3Swap Contributer",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmNyU99pogh6mC82ktGmXeVqVaSLujwgZQXxVj46Ug6U7j/o3nft_tether.json",
+        "imageUrl": "https://ipfs.io/ipfs/QmNdBfjY9eSY5TT8UxaRP2ZvzJdPodEhQSytEP12UPEHLc/o3nft_tether.png",
+        "collectionName": "O3Swap Contributer",
+        "symbol": "O3SWAP",
+        "contractType": "ERC721",
+        "contractAddress": "0x1B54d88503dbf7fA28FCb08d92e329330e768bd1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Bankless Badge - 2025",
+        "tokenId": "7324489",
+        "tokenUrl": "https://api.poap.tech/metadata/183656/7324489",
+        "imageUrl": "https://ipfs.io/ipfs/",
+        "collectionName": "POAP",
+        "symbol": "The Proof of Attendance Protocol",
+        "contractType": "ERC721",
+        "contractAddress": "0x22C1f6050E56d2876009903609a2cC3fEf83B415",
+        "traits": [
+          {
+            "trait_type": "startDate",
+            "value": "01-Jan-2025"
+          },
+          {
+            "trait_type": "endDate",
+            "value": "31-Dec-2025"
+          },
+          {
+            "trait_type": "virtualEvent",
+            "value": "false"
+          },
+          {
+            "trait_type": "city",
+            "value": ""
+          },
+          {
+            "trait_type": "country",
+            "value": ""
+          },
+          {
+            "trait_type": "eventURL",
+            "value": "https://www.bankless.com/"
+          }
+        ]
+      },
+      {
+        "blockchain": "eth",
+        "name": "goosevault.eth",
+        "tokenId": "30619889756976420315459148190109202816161022077966324240843127533875033727443",
+        "tokenUrl": "https://metadata.ens.domains/mainnet/0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85/30619889756976420315459148190109202816161022077966324240843127533875033727443",
+        "imageUrl": "https://metadata.ens.domains/mainnet/0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85/0x43b23e523310ee824c4239f01d6a4f438a5fec5bfd8d9e4ef277106f9682e1d3/image",
+        "collectionName": "Ethereum Name Service",
+        "symbol": "ENS",
+        "contractType": "ERC721",
+        "contractAddress": "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85",
+        "traits": [
+          {
+            "trait_type": "Created Date",
+            "value": "1630669419000"
+          },
+          {
+            "trait_type": "Length",
+            "value": "10"
+          },
+          {
+            "trait_type": "Segment Length",
+            "value": "10"
+          },
+          {
+            "trait_type": "Character Set",
+            "value": "letter"
+          },
+          {
+            "trait_type": "Registration Date",
+            "value": "1630669419000"
+          },
+          {
+            "trait_type": "Expiration Date",
+            "value": "1946238939000"
+          }
+        ]
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "3",
+        "tokenUrl": "https://api.opensea.io/api/v1/metadata/0x6ec32f7a754caffbca024eca8a5b42c10ae84cd2/3",
+        "imageUrl": "https://ipfs.io/ipfs/",
+        "collectionName": "AToken Wallet",
+        "symbol": "AToken",
+        "contractType": "ERC721",
+        "contractAddress": "0x6Ec32f7a754CAfFbcA024ecA8a5B42C10AE84cD2"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "44",
+        "tokenUrl": "http://api.thepicaroons.top/ipfs/44",
+        "imageUrl": "",
+        "collectionName": "The Picaroons",
+        "symbol": "Picaroons",
+        "contractType": "ERC721",
+        "contractAddress": "0x7F82b2081f2193cdB6c8CCbc93F7ACdb9CB69bcA"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "86",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "SecurityToken",
+        "symbol": "SET",
+        "contractType": "ERC721",
+        "contractAddress": "0x9cb151054ab13fa715F170c731A9705236e0a537"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1863",
+        "tokenUrl": "ipfs://QmZohU7rJ3f4rK5V7kNiyxmiHExqo4uS2BEVcWXC3LxQz7/1863",
+        "imageUrl": "",
+        "collectionName": "Catch Of The Day",
+        "symbol": "CatchNFT",
+        "contractType": "ERC721",
+        "contractAddress": "0xaEfa03B06c0D7A0e1871650F61348E84D979703F"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "23",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "SecurityFundBasket",
+        "symbol": "SFB",
+        "contractType": "ERC721",
+        "contractAddress": "0xc9c77B0c2EE79CEc54B3aF7039f8a7bC684e48bD"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "42506260032784096998303642851782460751898413070532365564617080891069628933518",
+        "tokenUrl": "https://metadata.unstoppabledomains.com/metadata/harmonycapybara.crypto",
+        "imageUrl": "",
+        "collectionName": ".crypto",
+        "symbol": "UD",
+        "contractType": "ERC721",
+        "contractAddress": "0xD1E5b0FF1287aA9f9A268759062E4Ab08b9Dacbe"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access liquideth.win to claim rewards",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmTFL9pvyz1YLnxPUaEjD4ppTrMd9CmA8H2yw7ozqVpsjh",
+        "imageUrl": "https://ipfs.io/ipfs/QmRDLUVkrvMYi3biGnqJY9anUJhrViGwmibH1oWRBrkGYP",
+        "collectionName": "Access Liquidether.win",
+        "symbol": "Access Liquidether.win to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x005F2051595491E5a17D1E294E7ACD64EE33B552",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmdWVqveCesegJmST6M3bMXgvYFmJiFwe187ec8pKo6DYA/{id}.json",
+        "imageUrl": "",
+        "collectionName": "stethfinance.com",
+        "symbol": "claim rewards on stethfinance.com",
+        "contractType": "ERC1155",
+        "contractAddress": "0x050c747cbD78F38A66AF72E3f9b202fCaa74924D",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmPo4Lc5ELk9yJonKMPYWpPRt86q3yhoT4MHuN5iFn2G1k/{id}.json",
+        "imageUrl": "",
+        "collectionName": "renderportal.net",
+        "symbol": "claim rewards on renderportal.net",
+        "contractType": "ERC1155",
+        "contractAddress": "0x05fd518B32D6BE4D8DE1160a62aCe776884DCFF2",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmdL6FB7zfjKbiih7AYbw7MJLcgjDtwxvYdLNMPiGfU7DC/{id}.json",
+        "imageUrl": "",
+        "collectionName": "cronosprotocol.com",
+        "symbol": "claim rewards on cronosprotocol.com",
+        "contractType": "ERC1155",
+        "contractAddress": "0x0F265472b6F7Ab3f69a186368182b7583E2304E4",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmUnpxNY86kZjzjfMmf8r2vRvCcwCckDmvWRhxsL6xud5P/{id}.json",
+        "imageUrl": "",
+        "collectionName": "get-clink.net",
+        "symbol": "claim rewards on get-clink.net",
+        "contractType": "ERC1155",
+        "contractAddress": "0x1262D6B823D7330A2a04EEAeF3e5e485E393f367",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmRrjd6rq6yHJav5FsaHZ4GuYhsKy57MA9ViMDZktgiMAA/1",
+        "imageUrl": "",
+        "collectionName": "Visit beefy.gift to claim rewards",
+        "symbol": "beefy.gift",
+        "contractType": "ERC1155",
+        "contractAddress": "0x1629B22D4A479CAd175CbA8C4c09e3320FC2AA4d",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://bafkreia62y7rn2via3dfk4cesh2nhlszxjt7gthcfkqometufgmlbwgrki",
+        "imageUrl": "",
+        "collectionName": "usdreward.net",
+        "symbol": "claim rewards on  usdreward.net",
+        "contractType": "ERC1155",
+        "contractAddress": "0x26ED6C0f087cf1cC110A48416221f6A37d11d773",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmabWFsEVGJygXeCfYiPcyf2uugmKo65SNUiL1papSFHWn/{id}.json",
+        "imageUrl": "",
+        "collectionName": "Visit website LinkGrant .net to claim your rewardsㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+        "symbol": "ChainLink Token",
+        "contractType": "ERC1155",
+        "contractAddress": "0x40a45a262435aD1418EfE98B351c985aBB5a64b3",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmbKtiWH9aHkz9N43EuZQS2sTgTbQRgPhG6ENvcvkUv9mW/{id}.json",
+        "imageUrl": "",
+        "collectionName": "illuviumfinance.com",
+        "symbol": "claim rewards on illuviumfinance.com",
+        "contractType": "ERC1155",
+        "contractAddress": "0x48aB30f156d5705554B727a811645aF2052B77b8",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmbU4jUq1Fn5wBDVHoYLRVaSEWFEdBRpF4f1KCpeTujyH4/{id}.json",
+        "imageUrl": "",
+        "collectionName": "linkairdrop.net",
+        "symbol": "claim rewards on linkairdrop.net",
+        "contractType": "ERC1155",
+        "contractAddress": "0x5216a5959c566Ffac9E997A6b803f0B3e16cDDBf",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmYk7PjRdNXAFs75nrtt4GbqDGsM7PAWw1Fr3zuugjZi6D/{id}.json",
+        "imageUrl": "",
+        "collectionName": "univ4lab.net",
+        "symbol": "claim rewards on univ4lab.net",
+        "contractType": "ERC1155",
+        "contractAddress": "0x6049b21e86A1288B2ECeCDA1c24479c2691C434A",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Unisocks NFT",
+        "tokenId": "1",
+        "tokenUrl": "https://quicknode.quicknode-ipfs.com/ipfs/bafkreie57ymrn23b5xil3f5jyrlsun6lezf7kfjk6fwi3r2v44cxs52w5u",
+        "imageUrl": "https://ipfs.io/ipfs/QmTAvWsiNpxFu8cbm27TG2iWLAnCCNXL7HWwVgvB37PfkG",
+        "collectionName": "Unisocks NFT",
+        "symbol": "Unisocks",
+        "contractType": "ERC1155",
+        "contractAddress": "0x727F8bc53616101519C73ac398cC7F9ffd1B898b",
+        "quantity": "1",
+        "traits": [
+          {
+            "trait_type": "Website",
+            "value": "claim-unisocks.xyz"
+          },
+          {
+            "trait_type": "Color",
+            "value": "Deep Pink on Crème"
+          },
+          {
+            "trait_type": "Material",
+            "value": "Cotton blend"
+          },
+          {
+            "trait_type": "Made In",
+            "value": "USA"
+          },
+          {
+            "trait_type": "Rarity",
+            "value": "375 / 500"
+          },
+          {
+            "trait_type": "USD Value",
+            "value": "4500"
+          }
+        ]
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "2",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "3",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "4",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "5",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "6",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "7",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "8",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "9",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "10",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "11",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "12",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "13",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "14",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "15",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "16",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "17",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "18",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "19",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "20",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "21",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "22",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "23",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access USDTchest.com to claim rewards",
+        "tokenId": "24",
+        "tokenUrl": "ipfs://QmeDegDjWgVJWHVqYYwHQvMBPivbWtfqVDPk51U2pMbWLp",
+        "imageUrl": "https://ipfs.io/ipfs/Qmco6ADABdnkLzPRkT9MSwjmNkPcmkZiS6mJQgjAQXNebH",
+        "collectionName": "Access USDTchest.com to claim rewards",
+        "symbol": "Access USDTchest.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x79D73884FeA4Ab033459BA9929aaA83fA9c3962f",
+        "quantity": "1"
+      }
+    ],
+    "syncStatus": {
+      "timestamp": 1778764667,
+      "lag": "-11s",
+      "status": "synced"
+    }
+  },
+  "source": "ankr_aapi"
+}

@@ -1,0 +1,26 @@
+{
+  "method": "eth_getUncleByBlockNumberAndIndex",
+  "sampleId": "idx0",
+  "description": "uncle by number+index (post-merge: null)",
+  "params": [
+    "0x182a1e3",
+    "0x0"
+  ],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:50.311Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "null"
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "null"
+    },
+    "2": {
+      "tokenTier": "2",
+      "resultBody": "null"
+    }
+  }
+}

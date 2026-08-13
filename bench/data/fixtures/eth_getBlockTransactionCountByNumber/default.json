@@ -1,0 +1,25 @@
+{
+  "method": "eth_getBlockTransactionCountByNumber",
+  "sampleId": "default",
+  "description": "eth_getBlockTransactionCountByNumber scalar",
+  "params": [
+    "0x182a1e3"
+  ],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:46.803Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0xf4\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"244\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"244\""
+    }
+  }
+}

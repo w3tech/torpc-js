@@ -1,0 +1,14 @@
+{
+  "examId": "eth_getUncleByBlockNumberAndIndex__idx0__t0",
+  "method": "eth_getUncleByBlockNumberAndIndex",
+  "sampleId": "idx0",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "null",
+  "questions": [
+    {
+      "qid": "eth_getUncleByBlockNumberAndIndex__idx0__q1",
+      "prompt": "Is there an uncle block at this index? Answer yes or no."
+    }
+  ]
+}

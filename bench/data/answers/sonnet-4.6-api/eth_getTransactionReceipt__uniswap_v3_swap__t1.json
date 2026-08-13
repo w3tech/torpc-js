@@ -1,0 +1,8 @@
+{
+  "eth_getTransactionReceipt__uniswap_v3_swap__q1": "yes",
+  "eth_getTransactionReceipt__uniswap_v3_swap__q2": "18",
+  "eth_getTransactionReceipt__uniswap_v3_swap__q3": "559755",
+  "eth_getTransactionReceipt__uniswap_v3_swap__q4": "10",
+  "eth_getTransactionReceipt__uniswap_v3_swap__q5": "0x06cff7088619c7178f5e14f0b119458d08d2f5ef",
+  "eth_getTransactionReceipt__uniswap_v3_swap__q6": "524844948523534505"
+}

@@ -1,0 +1,25 @@
+{
+  "method": "eth_getUncleCountByBlockNumber",
+  "sampleId": "default",
+  "description": "eth_getUncleCountByBlockNumber scalar",
+  "params": [
+    "0x182a1e3"
+  ],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:47.134Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x0\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"0\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"0\""
+    }
+  }
+}

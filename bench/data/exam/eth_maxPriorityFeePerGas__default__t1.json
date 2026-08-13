@@ -1,0 +1,14 @@
+{
+  "examId": "eth_maxPriorityFeePerGas__default__t1",
+  "method": "eth_maxPriorityFeePerGas",
+  "sampleId": "default",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"1000000\"",
+  "questions": [
+    {
+      "qid": "eth_maxPriorityFeePerGas__default__q1",
+      "prompt": "What is the value returned by eth_maxPriorityFeePerGas as a decimal integer?"
+    }
+  ]
+}

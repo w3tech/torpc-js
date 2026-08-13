@@ -1,0 +1,34 @@
+{
+  "examId": "eth_getTransactionReceipt__uniswap_v3_swap__t2",
+  "method": "eth_getTransactionReceipt",
+  "sampleId": "uniswap_v3_swap",
+  "tier": 2,
+  "primer": "TORPC tier-2. Numbers are ALREADY DECIMAL (NOT hex); events/functions are DECODED with named args (e.g. {event:\"Transfer\", args:{from,to,value}}); field names are compacted.",
+  "payload": "{\"block\":\"25338339\",\"block_hash\":\"0x2a6fa1f20e88229492c6c75ce18989c531c039454222993e3b2f5893765ee577\",\"from\":\"0xd7E1236C08731C3632519DCd1A581bFe6876a3B2\",\"gas_price\":\"434767195\",\"gas_used\":\"559755\",\"logs\":[{\"args\":{\"from\":\"0x11b815efB8f581194ae79006d24E0d814B7697F6\",\"to\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"value\":\"522041038649771689\"},\"contract\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"event\":\"Transfer\"},{\"args\":{\"from\":\"0xE0554a476A092703abdB3Ef35c80e0D76d32939F\",\"to\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"value\":\"922032808\"},\"contract\":\"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48\",\"event\":\"Transfer\"},{\"args\":{\"from\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"to\":\"0xE0554a476A092703abdB3Ef35c80e0D76d32939F\",\"value\":\"520000000000000000\"},\"contract\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"event\":\"Transfer\"},{\"args\":{\"amount0\":\"-922032808\",\"amount1\":\"520000000000000000\",\"liquidity\":\"340430520079895430\",\"recipient\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"sender\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"sqrtPriceX96\":\"1881483086986800225794437596773721\",\"tick\":\"201514\"},\"contract\":\"0xE0554a476A092703abdB3Ef35c80e0D76d32939F\",\"event\":\"Swap\"},{\"args\":{\"amount0\":\"-922032807\",\"amount1\":\"693273262570326789773\",\"fee\":\"10000\",\"id\":\"0x321c4b7204364c7a36d630c1fc087348a89849221feb9006f0f2dbee023b17ae\",\"liquidity\":\"292769578544477386\",\"sender\":\"0x66a9893cC07D91D95644AEDD05D03f95e1dBA8Af\",\"sqrtPriceX96\":\"68952655932281061376581281373453671\",\"tick\":\"273545\"},\"contract\":\"0x000000000004444c5dc75cB358380D2e3dE08A90\",\"event\":\"Swap\"},{\"args\":{\"from\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"to\":\"0x000000000004444c5dc75cB358380D2e3dE08A90\",\"value\":\"922032807\"},\"contract\":\"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48\",\"event\":\"Transfer\"},{\"args\":{\"from\":\"0x000000000004444c5dc75cB358380D2e3dE08A90\",\"to\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"value\":\"693273262570326789773\"},\"contract\":\"0xdDC0f880ff6e4e22E4B74632fBb43Ce4DF6cCC5a\",\"event\":\"Transfer\"},{\"args\":{\"from\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"to\":\"0x43b98EEA5C689F0036918f590a4B55f22D853734\",\"value\":\"693273262570326789772\"},\"contract\":\"0xdDC0f880ff6e4e22E4B74632fBb43Ce4DF6cCC5a\",\"event\":\"Transfer\"},{\"args\":{\"from\":\"0x43b98EEA5C689F0036918f590a4B55f22D853734\",\"to\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"value\":\"749866980370572173244\"},\"contract\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"event\":\"Transfer\"},{\"args\":{\"bought_id\":\"1\",\"buyer\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"fee\":\"477337916004711321\",\"packed_price_scale\":\"992040741276770614\",\"sold_id\":\"0\",\"tokens_bought\":\"749866980370572173244\",\"tokens_sold\":\"693273262570326789772\"},\"contract\":\"0x43b98EEA5C689F0036918f590a4B55f22D853734\",\"event\":\"TokenExchange\"},{\"args\":{\"owner\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"spender\":\"0x000000000022D473030F116dDEE9F6B43aC78BA3\",\"value\":\"115792089237316195423570985008687907853269984665640564039457584007913129639935\"},\"contract\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"event\":\"Approval\"},{\"args\":{\"amount\":\"1461501637330902918203684832716283019655932542975\",\"expiration\":\"281474976710655\",\"owner\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"spender\":\"0x66a9893cC07D91D95644AEDD05D03f95e1dBA8Af\",\"token\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\"},\"contract\":\"0x000000000022D473030F116dDEE9F6B43aC78BA3\",\"event\":\"Approval\"},{\"args\":{\"amount0\":\"-749866980370572173243\",\"amount1\":\"926513269\",\"fee\":\"80\",\"id\":\"0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b\",\"liquidity\":\"281440732237680047994\",\"sender\":\"0x66a9893cC07D91D95644AEDD05D03f95e1dBA8Af\",\"sqrtPriceX96\":\"88070410353796595090262\",\"tick\":\"-274208\"},\"contract\":\"0x000000000004444c5dc75cB358380D2e3dE08A90\",\"event\":\"Swap\"},{\"args\":{\"from\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"to\":\"0x000000000004444c5dc75cB358380D2e3dE08A90\",\"value\":\"749866980370572173243\"},\"contract\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"event\":\"Transfer\"},{\"args\":{\"from\":\"0x000000000004444c5dc75cB358380D2e3dE08A90\",\"to\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"value\":\"926513269\"},\"contract\":\"0xdAC17F958D2ee523a2206206994597C13D831ec7\",\"event\":\"Transfer\"},{\"args\":{\"from\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"to\":\"0x11b815efB8f581194ae79006d24E0d814B7697F6\",\"value\":\"926513271\"},\"contract\":\"0xdAC17F958D2ee523a2206206994597C13D831ec7\",\"event\":\"Transfer\"},{\"args\":{\"amount0\":\"-522041038649771689\",\"amount1\":\"926513268\",\"liquidity\":\"1605455568744407831\",\"recipient\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"sender\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"sqrtPriceX96\":\"3336932760882993597481206\",\"tick\":\"-201511\"},\"contract\":\"0x11b815efB8f581194ae79006d24E0d814B7697F6\",\"event\":\"Swap\"},{\"args\":{\"src\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"wad\":\"2041038649771689\"},\"contract\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"event\":\"Withdrawal\"}],\"status\":\"success\",\"to\":\"0x06CFf7088619C7178F5e14f0B119458d08d2f5ef\",\"tx\":\"0x161b156c0fc922c04c01cb07553792813ac493ab1a5352d1e3fe185fb380df38\",\"tx_index\":\"2\"}",
+  "questions": [
+    {
+      "qid": "eth_getTransactionReceipt__uniswap_v3_swap__q1",
+      "prompt": "Did this transaction succeed? Answer yes or no."
+    },
+    {
+      "qid": "eth_getTransactionReceipt__uniswap_v3_swap__q2",
+      "prompt": "How many event logs did this transaction emit?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__uniswap_v3_swap__q3",
+      "prompt": "What is the gas used by this transaction, as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__uniswap_v3_swap__q4",
+      "prompt": "How many ERC-20 Transfer events did this transaction emit?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__uniswap_v3_swap__q5",
+      "prompt": "In the first ERC-20 Transfer event log, what is the recipient (to) address?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__uniswap_v3_swap__q6",
+      "prompt": "In the first ERC-20 Transfer event log, what is the transferred amount as a decimal integer?"
+    }
+  ]
+}

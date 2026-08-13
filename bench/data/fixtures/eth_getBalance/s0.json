@@ -1,0 +1,26 @@
+{
+  "method": "eth_getBalance",
+  "sampleId": "s0",
+  "description": "balance of 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+  "params": [
+    "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+    "0x182a1e3"
+  ],
+  "coverage": "partial_t1",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:31:50.640Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "\"0x4ef972b0b91ff87a\""
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "\"5690705707505023098\""
+    },
+    "2": {
+      "tokenTier": "1",
+      "resultBody": "\"5690705707505023098\""
+    }
+  }
+}

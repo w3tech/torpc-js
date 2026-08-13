@@ -1,0 +1,8 @@
+{
+  "fixtureId": "W4",
+  "method": "eth_getBalance",
+  "capturedAt": "2026-05-14T13:17:52.901Z",
+  "pinnedBlock": "21540854",
+  "result": "0x2ac57abb319293b1a19",
+  "source": "eth_jsonrpc"
+}

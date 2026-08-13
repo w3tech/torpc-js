@@ -1,0 +1,14 @@
+{
+  "examId": "eth_getUncleByBlockHashAndIndex__idx0__t1",
+  "method": "eth_getUncleByBlockHashAndIndex",
+  "sampleId": "idx0",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "null",
+  "questions": [
+    {
+      "qid": "eth_getUncleByBlockHashAndIndex__idx0__q1",
+      "prompt": "Is there an uncle block at this index? Answer yes or no."
+    }
+  ]
+}

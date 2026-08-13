@@ -1,0 +1,25 @@
+{
+  "method": "eth_getTransactionReceipt",
+  "sampleId": "failed_tx",
+  "description": "receipt (failed_tx)",
+  "params": [
+    "0xe09e7e869fd759f29d966daf0a9c5bfc14f9a6704caf5705aa8d5a8de94f69ee"
+  ],
+  "coverage": "full_t2",
+  "pinnedBlock": "25338339",
+  "capturedAt": "2026-06-17T16:32:23.596Z",
+  "tiers": {
+    "0": {
+      "tokenTier": null,
+      "resultBody": "{\"blockHash\":\"0x977f5579ccabe275854182ce18eb7a5dbbda61022ed1a788c4a73d91e7fe4192\",\"blockNumber\":\"0x182a1e2\",\"contractAddress\":null,\"cumulativeGasUsed\":\"0x3efafc\",\"effectiveGasPrice\":\"0x4f67f4ca\",\"from\":\"0xc679b15079045362d0dadd3222e7dca770c58a3a\",\"gasUsed\":\"0x9152c\",\"logs\":[],\"logsBloom\":\"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"status\":\"0x0\",\"to\":\"0x0000000000000068f116a894984e2db1123eb395\",\"transactionHash\":\"0xe09e7e869fd759f29d966daf0a9c5bfc14f9a6704caf5705aa8d5a8de94f69ee\",\"transactionIndex\":\"0xc\",\"type\":\"0x2\"}"
+    },
+    "1": {
+      "tokenTier": "1",
+      "resultBody": "{\"block\":\"25338338\",\"block_hash\":\"0x977f5579ccabe275854182ce18eb7a5dbbda61022ed1a788c4a73d91e7fe4192\",\"from\":\"0xC679b15079045362D0DaDD3222e7dCa770c58A3a\",\"gas_price\":\"1332212938\",\"gas_used\":\"595244\",\"logs\":[],\"status\":\"failed\",\"to\":\"0x0000000000000068F116a894984e2DB1123eB395\",\"tx\":\"0xe09e7e869fd759f29d966daf0a9c5bfc14f9a6704caf5705aa8d5a8de94f69ee\",\"tx_index\":\"12\"}"
+    },
+    "2": {
+      "tokenTier": "2",
+      "resultBody": "{\"block\":\"25338338\",\"block_hash\":\"0x977f5579ccabe275854182ce18eb7a5dbbda61022ed1a788c4a73d91e7fe4192\",\"from\":\"0xC679b15079045362D0DaDD3222e7dCa770c58A3a\",\"gas_price\":\"1332212938\",\"gas_used\":\"595244\",\"logs\":[],\"status\":\"failed\",\"to\":\"0x0000000000000068F116a894984e2DB1123eB395\",\"tx\":\"0xe09e7e869fd759f29d966daf0a9c5bfc14f9a6704caf5705aa8d5a8de94f69ee\",\"tx_index\":\"12\"}"
+    }
+  }
+}

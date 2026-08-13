@@ -1,0 +1,673 @@
+{
+  "fixtureId": "W1",
+  "method": "ankr_getNFTsByOwner",
+  "capturedAt": "2026-05-14T13:17:48.746Z",
+  "pinnedBlock": "21540854",
+  "result": {
+    "nextPageToken": "eyJldGgiOnsidG9rZW4iOiIweDQ5NWY5NDcyNzY3NDljZTY0NmY2OGFjOGMyNDg0MjAwNDVjYjdiNWU0NDZlNWQ5MTEyNTBjODZhYTdhNDZmYmYxMjUyMzcwN2MxYjVjYzFkMDAwMDAwMDAwMDAwNjgwMDAwMDAwMDAxIiwib2Zmc2V0IjowLCJuZXh0VG9rZW4iOiIiLCJuZXh0VG9rZW5JbmRleCI6MH0sInR5cGUiOnsidG9rZW4iOiJcdTAwMDIiLCJvZmZzZXQiOjAsIm5leHRUb2tlbiI6IiIsIm5leHRUb2tlbkluZGV4IjowfX0=",
+    "owner": "0x742d35cc6634c0532925a3b844bc454e4438f44e",
+    "assets": [
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "60490",
+        "tokenUrl": "https://footbattle.io/api/card/60490",
+        "imageUrl": "",
+        "collectionName": "Footbattle Card",
+        "symbol": "FBC",
+        "contractType": "ERC721",
+        "contractAddress": "0x157Ad40f43e26e72909F16bB07F2ca97466dF849"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "2",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0x376c4c43E092Bd48a9cdc8259dEc833bbD6d6860"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "74",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0x376c4c43E092Bd48a9cdc8259dEc833bbD6d6860"
+      },
+      {
+        "blockchain": "eth",
+        "name": "MAX OSIRIS/MARTIN FISCHER 'CYBERPUNK FUTURE IS NOW'/JAY DELAY AND ROBNESS CYBERPOP - A SHAREWARE CRYPTO ART 'SPLIT' #4",
+        "tokenId": "1138",
+        "tokenUrl": "https://us-central1-thing-1d2be.cloudfunctions.net/getThing?thingId=kBDlXjwStXniW7beIJBy",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/thing-1d2be.appspot.com/o/token%2Fasset-1584977260976?alt=media&token=47b8a1a8-325f-4780-a2a9-406864be1972",
+        "collectionName": "Cyberpop Gallery",
+        "symbol": "ETH",
+        "contractType": "ERC721",
+        "contractAddress": "0x3A3b0DbDC0f6BC77421Dcd2f55CfA087b0db9Aec"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "181904000000000",
+        "tokenUrl": "https://example.com/nft-metadata.json",
+        "imageUrl": "",
+        "collectionName": "TATUM_NFT_EXPRESS",
+        "symbol": "NFT_EXPRESS",
+        "contractType": "ERC721",
+        "contractAddress": "0x55DBD1124d64d7999A6e3DB234b5EADf4b19d86D"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "885",
+        "tokenUrl": "https://ipfs.daonomic.com/ipfs/QmNuw5sMmvJTdacgd2N4wxKMZou9sz9DesoNGURnpnLJdR",
+        "imageUrl": "",
+        "collectionName": "Rarible",
+        "symbol": "RARI",
+        "contractType": "ERC721",
+        "contractAddress": "0x60F80121C31A0d46B5279700f9DF786054aa5eE5"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "8",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "OpenEthereumToken",
+        "symbol": "OET",
+        "contractType": "ERC721",
+        "contractAddress": "0x80804eccd64B153572dCD0F6f494253a0d013492"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "85",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "SecurityToken",
+        "symbol": "SET",
+        "contractType": "ERC721",
+        "contractAddress": "0x9cb151054ab13fa715F170c731A9705236e0a537"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Greeting Cards 2023 Limited Edition Genesis #128",
+        "tokenId": "128",
+        "tokenUrl": "https://nft.bueno.art/api/contract/S8EwtBaqZXi_ylpMkIvXu/chain/1/metadata/128",
+        "imageUrl": "https://assets.bueno.art/images/278a4b65-e046-4d09-994e-e03b8175a839/default/128",
+        "collectionName": "Greeting Cards 2023 Limited Edition Genesis",
+        "symbol": "GC2023",
+        "contractType": "ERC721",
+        "contractAddress": "0xc371DC25bBC88bFD84F02a36389F39a860963315",
+        "traits": [
+          {
+            "trait_type": "Background",
+            "value": "B10"
+          },
+          {
+            "trait_type": "Decoration",
+            "value": "Deco8"
+          },
+          {
+            "trait_type": "Fire",
+            "value": "Fire5"
+          },
+          {
+            "trait_type": "HNY",
+            "value": "Hny8"
+          },
+          {
+            "trait_type": "Year",
+            "value": "Year6"
+          }
+        ]
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "25",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "SecurityFundBasket",
+        "symbol": "SFB",
+        "contractType": "ERC721",
+        "contractAddress": "0xc9c77B0c2EE79CEc54B3aF7039f8a7bC684e48bD"
+      },
+      {
+        "blockchain": "eth",
+        "name": "TEN-K BOOTUP DISKETTE VERSION 11.11",
+        "tokenId": "342",
+        "tokenUrl": "https://us-central1-thing-1d2be.cloudfunctions.net/getThing?thingId=PaO6mwrDkzmuVb71c76o",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/thing-1d2be.appspot.com/o/token%2Fasset-1581629142353?alt=media&token=4ac352ca-7ca5-4ab8-af12-e135bc6fd3cb",
+        "collectionName": "HoneyBadger Mint",
+        "symbol": "HBG",
+        "contractType": "ERC721",
+        "contractAddress": "0xD498fC4289ecbCf5C9Ef033DE3CEdDC1fc3f6cC3"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Genesis Art",
+        "tokenId": "113",
+        "tokenUrl": "https://us-central1-thing-1d2be.cloudfunctions.net/getThing?thingId=xxN2U0SFlK4qEA9J06JE",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/thing-1d2be.appspot.com/o/token%2Fasset-1588109008053?alt=media&token=49dde2b4-8ff4-40c7-87f6-517c20d37afa",
+        "collectionName": "Genesis",
+        "symbol": "GENE",
+        "contractType": "ERC721",
+        "contractAddress": "0xd650282641b033555f9fAdC3947914F25635889a"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "16660",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xD73bE539d6B2076BaB83CA6Ba62DfE189aBC6Bbe"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "557534299966262287754635445217070637994420994128",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "558951701588681390281253418442270123108488708172",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "559591341583100786701994817983229054814299095136",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "560047434629932496599297927114435162503070613568",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "564337140996001060044394754915395292144112500846",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "566110837312398932714812835303557866339948298310",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "566110886313059769329951574029501335835965915170",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "567590159096279537650811848415949503846976323626",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "568915778057280890050372162925159295189598077034",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "581562542365081028514220211897809066993326751862",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "581759022764870646066777818249640867119188934702",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC721",
+        "contractAddress": "0xDF74156420Bd57ab387B195ed81EcA36F9fABAca"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "792",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "Noox : Lido Airdrop Recipient",
+        "symbol": "Noox Distribution Protocol",
+        "contractType": "ERC721",
+        "contractAddress": "0xe162D9D81444601B1e06449A5e27bb25B3Fd3Ee1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Maverick Reward - UNI/WETH Position #4",
+        "tokenId": "4",
+        "tokenUrl": "ipfs://QmbBYA4Ni68H6ByY2MjxRjjHoXJBmWKaoKbZUGGpnUEaRs/4",
+        "imageUrl": "https://ipfs.io/ipfs/QmP6cWd9irU7Z4zLtrtoe5tSKYtLNQV63TNwQK6QqLuMot",
+        "collectionName": "Maverick Reward - UNI/WETH Liquidity Position",
+        "symbol": "Maverick Reward",
+        "contractType": "ERC1155",
+        "contractAddress": "0x00Fd658873019300fd44Bd15660dc7355f04144a",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "2",
+        "tokenUrl": "ipfs://QmbfiUDbse7wCraNvBryrw2qEn9jYZdHpnxr4RyW1wZPtL/2",
+        "imageUrl": "",
+        "collectionName": "Unisocks.org Genesis Vault",
+        "symbol": "items powered by Unisocks.org",
+        "contractType": "ERC1155",
+        "contractAddress": "0x01362EE055877dFBa44a217e874c359A8e6e846D",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "TrueUSD Airdrop Withdrawal Pass #1",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmaqCH1evFkjiEoAXVBU8LfputopJrYwkyDXU3niHDDw9b/1",
+        "imageUrl": "https://ipfs.io/ipfs/QmPPZa8LFXjHPmLZCcg6dCW3xAk3vmuypv2z7Vbe9krZpx",
+        "collectionName": "TrueUSD Airdrop Withdrawal Pass",
+        "symbol": "TUSD GOLD Pass",
+        "contractType": "ERC1155",
+        "contractAddress": "0x01417E334953c23A9722DC726CD19226b309da29",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "AAVE: Airdrop Recipient",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmUNxko8qf6jxQcggpmNNTddvmbHjmPwH7afrtkQPGvDSZ",
+        "imageUrl": "https://ipfs.io/ipfs/QmTfFj2khu1NDCXKCq4PK7iBNKMZAjhrGnDiYfXkR6zqWn",
+        "collectionName": "AAVE: Airdrop Recipient",
+        "symbol": "AAVE Airdrop Badge",
+        "contractType": "ERC1155",
+        "contractAddress": "0x01D60DD27E94E03662d5878d7bFef60b8a4Cb502",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "13",
+        "tokenUrl": "ipfs://QmQKCRfVZmZPZw6QBLmQBwShfdUJzJtZ5XMrGzKskhnYgP",
+        "imageUrl": "",
+        "collectionName": "Gnosis Mysterybox NFT",
+        "symbol": "gnosis.gift",
+        "contractType": "ERC1155",
+        "contractAddress": "0x042738b993B119Ae33E74d20FE259E8F2F4C5087",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmSN5AwWrVnnLRfiNFEGY9Xyw7Z2Crho8HmaAxGaDLpqUM/{id}.json",
+        "imageUrl": "",
+        "collectionName": "get-steth.org",
+        "symbol": "claim rewards on get-steth.org",
+        "contractType": "ERC1155",
+        "contractAddress": "0x065919583BE578ae8Ea1CC293E7EeF87E76918A0",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access sandboxtoken.net to claim rewards",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmZ57BovsoqFqMEYmBkgpFTr5oA1ExZ25AdKcavxjic468",
+        "imageUrl": "https://ipfs.io/ipfs/QmbKW8eLxAoiS5r6TWp79ovQPLXM7mxz1sKi9qeJXcr8Xb",
+        "collectionName": "Access sandboxtoken.net",
+        "symbol": "Access sandboxtoken.net to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x0ac448A5501a9330687912D296dff43128Edb9BC",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access 1inchpool.com to claim rewards",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://Qmcnj9i29cyMUnCJmVegZH3B1i1Lc8TiwaWT4V3aHqYuVY",
+        "imageUrl": "https://ipfs.io/ipfs/QmSXENTXs13acnYWQuwch5mEfEHTGHq8Q1zeCUwXiiB6PL",
+        "collectionName": "Access 1inchpool.com",
+        "symbol": "Access 1inchpool.com to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x11ACB73E241Bf51960f36e9D78aD1D2Ef4122cFA",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "shibalock . space",
+        "tokenId": "0",
+        "tokenUrl": "ipfs://QmZhqt3qWcY52jWn5sPbxUfQEMAU4SEGJw2QLT6wkuj6bW",
+        "imageUrl": "https://ipfs.io/ipfs/QmaTc5tgT3FToYC1bie467fPXA5kKhoZPxKXxiJyD5BYjV",
+        "collectionName": "NEW YEAR SPECIAL",
+        "symbol": "HSLA",
+        "contractType": "ERC1155",
+        "contractAddress": "0x139Fcbe60644DfC74F80f7C392BEB6D1783f53bd",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "0",
+        "tokenUrl": "https://ipfs.io/ipfs/QmYwFuf15rmTt4a1ftSNUjvgGhiWcTMngGXup3gN2rzPDF/{id}.json",
+        "imageUrl": "",
+        "collectionName": "makerpool.net",
+        "symbol": "claim rewards on makerpool.net",
+        "contractType": "ERC1155",
+        "contractAddress": "0x20469Bdc6bAe5A41D79D1bE83DAAE92B3C9C9E00",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmdVB733Q122JETQ37jVHiu9jbuhYG5DxJFUtVnKmgLHwC",
+        "imageUrl": "",
+        "collectionName": "Radix Mysterybox NFT",
+        "symbol": "radix.gift",
+        "contractType": "ERC1155",
+        "contractAddress": "0x2c4125D2814AdC0F0ae61d5C74e7BaeE6729Af53",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmVFGnNYTSw8jnrqiBUt1KueSemCVcDAZaUd8fr98xdBo7",
+        "imageUrl": "",
+        "collectionName": "APE Mysterybox NFT",
+        "symbol": "apy-apecoin.com",
+        "contractType": "ERC1155",
+        "contractAddress": "0x2C4e64832208Db7DC0a416A2bC46428eD9dE6e1F",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "AllianceBlock: Airdrop Recipient",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmUwzpAAvJaKJdz5UWCPkEGpQgdNQHTNFYXyE6cXtg8JmU",
+        "imageUrl": "https://ipfs.io/ipfs/Qmf9NV3jfak5cmnFoFgbpjBsxYvYpFuV3s3gZuuGU9YHgy",
+        "collectionName": "AllianceBlock: Airdrop Recipient",
+        "symbol": "NEXERA Airdrop Badge",
+        "contractType": "ERC1155",
+        "contractAddress": "0x313F3094219F3DaE7d7aD6fb5D4C23dA5Cd6fd90",
+        "quantity": "1",
+        "traits": [
+          {
+            "trait_type": "Amount Claimable by Owner",
+            "value": "+2,000,000 $NXRA"
+          },
+          {
+            "trait_type": "website",
+            "value": "nexeradao.com"
+          }
+        ]
+      },
+      {
+        "blockchain": "eth",
+        "name": "LDO Mysterybox NFT",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmWLBdMtpbMPMK6Ln1NvLv8nMDkMcdjY5PWqUxS8Pc2afp",
+        "imageUrl": "https://ipfs.io/ipfs/QmTgfVAsGrfY5bWqfQ2X83eEkd1yKfCLJvixaAmJAPD6P8",
+        "collectionName": "LDO Mysterybox NFT",
+        "symbol": "nft-lido.com",
+        "contractType": "ERC1155",
+        "contractAddress": "0x343dfE0894EDCeC4B741DB8467594bBb9e7F0178",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmXM6FMX54sBUkeE53df4XDx8LpUxZjgUMHxc3kyXCYper",
+        "imageUrl": "",
+        "collectionName": "",
+        "symbol": "",
+        "contractType": "ERC1155",
+        "contractAddress": "0x34CcaA9d70f564F47d09da57C24D1335326eB4cF",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs/QmZm66voLjMutRLmMGeGtasKknpE5rb5qyfsoVHdJRX9Ei",
+        "imageUrl": "",
+        "collectionName": "MANA Mysterybox NFT",
+        "symbol": "mana-nft.com",
+        "contractType": "ERC1155",
+        "contractAddress": "0x3b3486CED2a6A2459392Cb1F345ab786f8a5bDf1",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs/QmVkn2ZRKn3ovDT6RZi7neGmT2tRXUxf8vmXtNRmeaEibv",
+        "imageUrl": "",
+        "collectionName": "aave-nft.com",
+        "symbol": "aave-nft.com",
+        "contractType": "ERC1155",
+        "contractAddress": "0x3F044e71C6619BE3cE75d59a02D881c017A4b9CE",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Access LINKjackpot.org to claim rewards",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmdKvniEpfHPdiBmyaVUhDTwd79rnYLE7TJ7XnqR3X3d86",
+        "imageUrl": "https://ipfs.io/ipfs/QmSKiLtVq6L2AZEuFRPFLHsh61ScuZzjf53tyH9cZthMd2",
+        "collectionName": "Access LINKjackpot.org to claim rewards",
+        "symbol": "Access LINKjackpot.org to claim rewards",
+        "contractType": "ERC1155",
+        "contractAddress": "0x4037159c6bc027Ac3e13076E086e22A5F7449d4F",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://bafkreid57yu7gdrxiuqgfzagh3zglf3j3pf2o4vw7uxj3bbb3wombds6w4",
+        "imageUrl": "",
+        "collectionName": "fetreward.com",
+        "symbol": "claim rewards on fetreward.com",
+        "contractType": "ERC1155",
+        "contractAddress": "0x4052FAD4141f6c571F6A080E10073a0be65bc8Aa",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "1",
+        "tokenUrl": "ipfs://QmVc8hLihgyuXNQLAaNFKVBWq7LFk7P75D23TmyMGidrJn",
+        "imageUrl": "",
+        "collectionName": "# nft-yearn.fi",
+        "symbol": "Visit nft-yearn.fi for more information",
+        "contractType": "ERC1155",
+        "contractAddress": "0x418ea4e55B03Cce07831FBAf2cAbfAF179249C23",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "16",
+        "tokenUrl": "ipfs://QmebhtWmfzpHvTALrQMGnfeRY7hnh4M1LWFwW48hraYFjB/16",
+        "imageUrl": "",
+        "collectionName": "Unisocks Genesis Airdrop",
+        "symbol": "Socks powered by Unisocks.org",
+        "contractType": "ERC1155",
+        "contractAddress": "0x43800FC835aE802F1D3C03E1D38B1811Fac336c7",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "Unisocks.org - Genesis Airdrop",
+        "tokenId": "22",
+        "tokenUrl": "ipfs://QmebhtWmfzpHvTALrQMGnfeRY7hnh4M1LWFwW48hraYFjB/22",
+        "imageUrl": "https://ipfs.io/ipfs/QmNY4Jo3DedNKVsWtRdDNLdL9TkgtwmuGKSbcntimzi1kq",
+        "collectionName": "Unisocks Genesis Airdrop",
+        "symbol": "Socks powered by Unisocks.org",
+        "contractType": "ERC1155",
+        "contractAddress": "0x43800FC835aE802F1D3C03E1D38B1811Fac336c7",
+        "quantity": "1",
+        "traits": [
+          {
+            "trait_type": "Website",
+            "value": "Unisocks.org"
+          },
+          {
+            "trait_type": "Color",
+            "value": "Deep Pink on Crème"
+          },
+          {
+            "trait_type": "Material",
+            "value": "Cotton blend"
+          },
+          {
+            "trait_type": "Made In",
+            "value": "USA"
+          },
+          {
+            "trait_type": "Length",
+            "value": "Mid-calf"
+          },
+          {
+            "trait_type": "Size",
+            "value": "One size fits most"
+          },
+          {
+            "trait_type": "Rarity",
+            "value": "1 / 500"
+          },
+          {
+            "trait_type": "USD Value",
+            "value": "ethPrice * 1750 / (500 - socksSold)**2"
+          },
+          {
+            "trait_type": "Version",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "blockchain": "eth",
+        "name": "Noox.global Airdrop Recipient",
+        "tokenId": "1",
+        "tokenUrl": "https://quicknode.quicknode-ipfs.com/ipfs/QmNWrx3EaGvQQTtMcUKh4uNA8f1QwSVgr8mkN6UmMSFwbf",
+        "imageUrl": "https://ipfs.io/ipfs/QmUExfQ3FGmCs2utPvPEMtuEVECaHFsTckGrfh1Pg7yDEw",
+        "collectionName": "Noox.global Airdrop Recipient",
+        "symbol": "Noox Distribution Protocol",
+        "contractType": "ERC1155",
+        "contractAddress": "0x43e3CB5D4ee5b878146D7304d9F9BdD492058dB6",
+        "quantity": "1",
+        "traits": [
+          {
+            "trait_type": "category",
+            "value": "DeFi"
+          },
+          {
+            "trait_type": "website",
+            "value": "noox.global"
+          }
+        ]
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "6523378705036898846893138471391131419562593960746134512776800762872469661456",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "OpenSea Shared Storefront",
+        "symbol": "OPENSTORE",
+        "contractType": "ERC1155",
+        "contractAddress": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
+        "quantity": "1"
+      },
+      {
+        "blockchain": "eth",
+        "name": "",
+        "tokenId": "18559174869270563003912120188639527931644553804721015945737512303009548306080",
+        "tokenUrl": "",
+        "imageUrl": "",
+        "collectionName": "OpenSea Shared Storefront",
+        "symbol": "OPENSTORE",
+        "contractType": "ERC1155",
+        "contractAddress": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
+        "quantity": "1"
+      }
+    ],
+    "syncStatus": {
+      "timestamp": 1778764655,
+      "lag": "-15s",
+      "status": "synced"
+    }
+  },
+  "source": "ankr_aapi"
+}

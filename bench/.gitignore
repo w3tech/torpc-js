@@ -1,0 +1,51 @@
+# --- secrets (DO NOT COMMIT) -------------------------------------------------
+.env
+.env.*
+*.env
+secrets.env
+*.key
+*.pem
+*.p12
+credentials.json
+private/
+# .config/  — anchored only at repo root (not e.g. src/secrets/ module dir)
+/.config/
+/secrets/
+
+# --- node / pnpm -------------------------------------------------------------
+node_modules/
+.pnpm-store/
+pnpm-debug.log*
+npm-debug.log*
+yarn-error.log*
+
+# --- typescript / build ------------------------------------------------------
+dist/
+build/
+*.tsbuildinfo
+.tsc-out/
+
+# --- bench artifacts ---------------------------------------------------------
+# Raw per-LLM-call dumps (large, may echo prompts/data) — keep aggregated summaries
+results/raw/
+results/runs-detailed/
+results/**/raw-llm-responses/
+
+# --- editor / OS -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- coverage / test ---------------------------------------------------------
+coverage/
+.nyc_output/
+
+# --- env loader path itself (defense in depth) -------------------------------
+# Secrets live in ~/.config/agent-rpc-bench/secrets.env, outside this repo.
+# But if anything ever lands here matching these patterns, refuse to track.
+**/secrets.env
+**/agent-rpc-bench-secrets*

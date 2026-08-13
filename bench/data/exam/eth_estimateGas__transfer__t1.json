@@ -1,0 +1,14 @@
+{
+  "examId": "eth_estimateGas__transfer__t1",
+  "method": "eth_estimateGas",
+  "sampleId": "transfer",
+  "tier": 1,
+  "primer": "TORPC tier-1. Numeric quantities are ALREADY DECIMAL (NOT hex); some field names are compacted.",
+  "payload": "\"27977\"",
+  "questions": [
+    {
+      "qid": "eth_estimateGas__transfer__q1",
+      "prompt": "What is the value returned by eth_estimateGas as a decimal integer?"
+    }
+  ]
+}

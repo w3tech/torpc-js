@@ -1,0 +1,26 @@
+{
+  "examId": "eth_getTransactionReceipt__contract_deployment__t0",
+  "method": "eth_getTransactionReceipt",
+  "sampleId": "contract_deployment",
+  "tier": 0,
+  "primer": "Standard Ethereum JSON-RPC. Numeric quantities are HEX (0x-prefixed). Logs are raw: topics[] + data (ERC-20 Transfer = topic0 0xddf2..., topic1=from, topic2=to, data=value).",
+  "payload": "{\"blockHash\":\"0x0e446ad6785d02c8e66edfaab8b113bd3f1fc5c0897db48f30a6d2c423ac6489\",\"blockNumber\":\"0x182a1d8\",\"contractAddress\":\"0xc5da831b5f152d6740e6a454fb936dde61e3426a\",\"cumulativeGasUsed\":\"0x2c0a1f6\",\"effectiveGasPrice\":\"0x19960336\",\"from\":\"0x51c97c1278362e7978c6ed5981c679de533d7048\",\"gasUsed\":\"0x20cb00\",\"logs\":[],\"logsBloom\":\"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"status\":\"0x1\",\"to\":null,\"transactionHash\":\"0x562f28dac946dbc8842989db7cea74da6d779dfa08de8ce31ec620be7af3f5a2\",\"transactionIndex\":\"0x18a\",\"type\":\"0x2\"}",
+  "questions": [
+    {
+      "qid": "eth_getTransactionReceipt__contract_deployment__q1",
+      "prompt": "Did this transaction succeed? Answer yes or no."
+    },
+    {
+      "qid": "eth_getTransactionReceipt__contract_deployment__q2",
+      "prompt": "How many event logs did this transaction emit?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__contract_deployment__q3",
+      "prompt": "What is the gas used by this transaction, as a decimal integer?"
+    },
+    {
+      "qid": "eth_getTransactionReceipt__contract_deployment__q4",
+      "prompt": "How many ERC-20 Transfer events did this transaction emit?"
+    }
+  ]
+}
