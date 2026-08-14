@@ -1,6 +1,6 @@
 #!/usr/bin/env node --experimental-strip-types
 /**
- * Conformance adapter for @torpc/decoder.
+ * Conformance adapter for @w3tech.io/torpc-decoder.
  *
  * Implements the TORPC_CMD protocol of the spec repository's conformance
  * runner: read a job on stdin, write the transformed JSON-RPC response on

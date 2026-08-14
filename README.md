@@ -14,15 +14,27 @@ spec wins.
 
 | Path | Package | What it is |
 | ---- | ------- | ---------- |
-| [`codec/`](./codec/README.md) | `@torpc/decoder` | Bidirectional mapper between standard EVM JSON-RPC responses and the TORPC compact form. Structural only: it reshapes what it is given and does not resolve ABIs. |
+| [`codec/`](./codec/README.md) | [`@w3tech.io/torpc-decoder`](https://www.npmjs.com/package/@w3tech.io/torpc-decoder) | Bidirectional mapper between standard EVM JSON-RPC responses and the TORPC compact form. Structural only: it reshapes what it is given and does not resolve ABIs. |
 | [`packages/torpc-toevm-rules/`](./packages/torpc-toevm-rules/README.md) | `@torpc/toevm-rules` | The individual transform rules the mapper composes: hex stripping, hex to decimal, service-field dropping. |
 | [`bench/`](./bench/README.md) | not a package | The benchmark harness: how many tokens the transform actually saves, and whether a model can still answer questions from the compressed payload. Measured on captured Ethereum mainnet responses, not on synthetic data. |
 
 ## Status
 
-**Neither package is on npm yet.** Both are marked `private` in their `package.json`, and the names
-above are what they will carry rather than something you can install today. Use them from a checkout,
-importing the TypeScript sources directly.
+The codec is published as **`@w3tech.io/torpc-decoder`**:
+
+```
+npm install @w3tech.io/torpc-decoder
+```
+
+The rules package is not published yet. It is still marked `private`, and the name above is what it
+will carry rather than something you can install; use it from a checkout.
+
+The published package ships built JavaScript with type declarations, not the TypeScript in
+`codec/src`: Node does not strip types inside `node_modules`, so a `.ts` entry point cannot be
+imported.
+
+Version 0.1.0. The spec's EVM tier 1 and tier 2 rules are normative, the conformance suite is a
+single-case scaffold, and no implementation claims TORPC conformance yet.
 
 ## Running it
 
