@@ -1,13 +1,21 @@
-# @torpc/decoder
+# @w3tech.io/torpc-decoder
 
 Reference **bidirectional mapper** between standard EVM JSON-RPC responses and the
 **TORPC (Token Optimized RPC)** compact form. Structural only: **no ABI resolution, no decoding of
 raw calldata or logs, no re-encoding.** Producing the decoded `{event, args}` / `{function, args}`
 shapes is the server's job (spec tier T2). This library only reshapes what it is given.
 
-**Not published to npm.** The package is marked `private` in `package.json`; use it from a checkout
-of this repository, importing the TypeScript sources directly (no build step, see Development below).
-`@torpc/decoder` is the name it carries in `package.json`, not a name you can install today.
+```
+npm install @w3tech.io/torpc-decoder
+```
+
+```ts
+import { forward, backward } from '@w3tech.io/torpc-decoder';
+```
+
+The published package is built JavaScript with type declarations, not the TypeScript in `src`: Node
+does not strip types inside `node_modules`, so a `.ts` entry point cannot be imported. Inside a
+checkout the sources are imported directly, no build step needed.
 
 ```ts
 import { forward, backward } from './src/index.ts';

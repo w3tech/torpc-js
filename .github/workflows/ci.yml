@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+        # version comes from the root package.json "packageManager"
+      - uses: actions/setup-node@v7
+        with:
+          # The root package.json asks for >=24 and the sources are imported as
+          # TypeScript locally, which needs a Node that strips types.
+          node-version: 24
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - name: Type-check
+        run: pnpm -r typecheck
+      - name: Test
+        run: pnpm -r test
+      - name: Lint
+        # Only the bench package carries an eslint config today; the root script
+        # says so explicitly rather than pretending the whole repo is linted.
+        run: pnpm lint
+      - name: Build the publishable package
+        # Not decoration: the published entry point is built JS, because Node
+        # refuses to strip types inside node_modules. If this breaks, the package
+        # is unusable however green the tests are.
+        run: pnpm --filter @w3tech.io/torpc-decoder build

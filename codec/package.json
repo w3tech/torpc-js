@@ -1,18 +1,45 @@
 {
-  "name": "@torpc/decoder",
-  "version": "0.0.0",
-  "private": true,
-  "description": "Reference bidirectional mapper between standard EVM JSON-RPC responses and the TORPC compact form. Structural only — no ABI, no decoding.",
+  "name": "@w3tech.io/torpc-decoder",
+  "version": "0.1.0",
+  "description": "Reference TORPC codec: maps standard EVM JSON-RPC responses to the TORPC compact form and back. Structural only, no ABI resolution.",
+  "license": "Apache-2.0",
   "type": "module",
-  "engines": {
-    "node": ">=22.6.0"
-  },
   "exports": {
-    ".": "./src/index.ts"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
   },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3tech/torpc-js.git",
+    "directory": "codec"
+  },
+  "homepage": "https://github.com/w3tech/torpc-js/tree/main/codec#readme",
+  "bugs": "https://github.com/w3tech/torpc-js/issues",
+  "keywords": [
+    "torpc",
+    "json-rpc",
+    "evm",
+    "ethereum",
+    "ai-agents",
+    "llm",
+    "token-optimization",
+    "codec"
+  ],
   "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "test": "node --test",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm typecheck && pnpm test && pnpm build"
   },
   "dependencies": {
     "@noble/hashes": "^1.5.0"
@@ -20,13 +47,5 @@
   "devDependencies": {
     "@types/node": "^22.5.0",
     "typescript": "^5.6.0"
-  },
-  "keywords": [
-    "torpc",
-    "ethereum",
-    "json-rpc",
-    "evm",
-    "compact"
-  ],
-  "license": "Apache-2.0"
+  }
 }

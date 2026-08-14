@@ -23,7 +23,7 @@ when it is `null`. Nothing here implements T2, tier negotiation, the `Accept-Tok
 `Token-Tier` headers, or method dispatch.
 
 If you want a complete, conformance-tested implementation of the spec, use
-[`@torpc/decoder`](https://github.com/w3tech/torpc-js) (`codec/` in that repository), which maps
+[`@w3tech.io/torpc-decoder`](https://www.npmjs.com/package/@w3tech.io/torpc-decoder) (`codec/` in that repository), which maps
 whole responses per method in both directions and runs against the conformance vectors. This package
 exists so the individual primitives can be named, read and reused in isolation.
 
@@ -115,7 +115,7 @@ const topics = raw.logs[0].topics.map((t, i) => (i === 0 ? t : hexStrip(t)));
 `topics[0]` is kept verbatim: it is the event-signature hash, not a padded value.
 
 A `composeRules` entry point that applies a full per-method mapping in one call is not part of this
-package and is not planned here, because `@torpc/decoder` already does that job.
+package and is not planned here, because `@w3tech.io/torpc-decoder` already does that job.
 
 ## Development
 

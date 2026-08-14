@@ -1,0 +1,22 @@
+{
+  // Emit config for the published artifact. tsconfig.json stays noEmit: inside a
+  // checkout the sources are imported as TypeScript.
+  //
+  // The build is required, not a convenience: Node does not strip types inside
+  // node_modules (ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING), so a package whose
+  // entry point is a .ts file cannot be imported.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    // Sources import each other as './x.ts'; tsc rewrites those to './x.js' on
+    // the way out (TS 5.7+), so no source change is needed.
+    "allowImportingTsExtensions": false,
+    "rewriteRelativeImportExtensions": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src"]
+}

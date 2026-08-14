@@ -1,0 +1,66 @@
+name: Publish decoder
+
+# Manual only: the `prod` environment permits `main`, so a tag cannot deploy.
+# The version comes from codec/package.json, never from a ref.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  # No `id-token: write` yet: provenance and trusted publishing come once a
+  # publisher is registered for the package on npm.
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # Requires an approval from the environment's reviewers, and NPMJS_TOKEN is
+    # scoped to it, so the job cannot read the token without that approval.
+    environment: prod
+    defaults:
+      run:
+        working-directory: codec
+
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+          cache: "pnpm"
+      # One pnpm workspace: install from the root so the lockfile resolves.
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      # Mirror CI before publishing.
+      - name: Type-check
+        run: pnpm typecheck
+      - name: Test
+        run: pnpm test
+      - name: Build
+        run: pnpm build
+      # Node does not strip types inside node_modules, so a package can compile and
+      # still be unimportable. Check the packed tarball, not the working tree.
+      - name: Smoke-test the packed tarball
+        run: |
+          set -euo pipefail
+          TARBALL="$(pnpm pack --pack-destination "$RUNNER_TEMP" | tail -1)"
+          mkdir -p "$RUNNER_TEMP/consume" && cd "$RUNNER_TEMP/consume"
+          echo '{"name":"consume","private":true,"type":"module"}' > package.json
+          npm install --silent "$TARBALL"
+          cat > use.mjs <<'JS'
+          import { forward, registry } from '@w3tech.io/torpc-decoder';
+          const out = forward('eth_getBlockByNumber', {
+            jsonrpc: '2.0', id: 1,
+            result: { number: '0x1', gasUsed: '0x5208', hash: '0xabc',
+                      logsBloom: '0x' + '00'.repeat(256) },
+          });
+          if (!out || typeof out.result !== 'object') throw new Error('forward returned nothing usable');
+          if ('logsBloom' in out.result) throw new Error('logsBloom survived the mapping');
+          if (registry.size === 0) throw new Error('method registry is empty');
+          console.log('ok: importable,', registry.size, 'methods');
+          JS
+          node use.mjs
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPMJS_TOKEN }}
