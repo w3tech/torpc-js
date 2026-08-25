@@ -7,14 +7,16 @@ on:
 
 permissions:
   contents: read
-  # No `id-token: write` yet: provenance and trusted publishing come once a
-  # publisher is registered for the package on npm.
+  # The credential. npm exchanges the OIDC token minted here for a short-lived
+  # token valid for a single publish, bound on the npm side to this repository,
+  # this workflow file and this environment. Nothing is stored in the repository.
+  id-token: write
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # Requires an approval from the environment's reviewers, and NPMJS_TOKEN is
-    # scoped to it, so the job cannot read the token without that approval.
+    # Requires an approval from the environment's reviewers, and npm accepts the
+    # OIDC claim only when it carries this environment.
     environment: prod
     defaults:
       run:
@@ -61,6 +63,8 @@ jobs:
           console.log('ok: importable,', registry.size, 'methods');
           JS
           node use.mjs
-      - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPMJS_TOKEN }}
+      # `--provenance` is the default under trusted publishing; passing it keeps the
+      # intent readable and survives a change of default. It works here because the
+      # manifest's `repository` names this repository, which is public and is where
+      # the publish runs: npm requires all three to line up.
+      - run: npm publish --access public --provenance
